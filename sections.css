@@ -1,3 +1,6 @@
+input{
+    padding-left: 20px;
+}
 .sections{
     margin-top: 50px;
     padding-bottom: 40px;
@@ -12,11 +15,11 @@ hr{
 }
 .firstSection{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .FourDiv{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .FourDiv > div{
     margin-left: 10px;
@@ -167,7 +170,7 @@ hr{
 .form > input:nth-child(2) {
     grid-area: b;
 }
-.form > input:nth-child(3) {
+.form > textarea {
     grid-area: c;
     height: 200px;
 }
